@@ -1,0 +1,31 @@
+{
+  "name": "revise-backend",
+  "version": "1.0.0",
+  "description": "it is a backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon   src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "^1.4.7",
+    "cookieparser": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "revise-backend": "file:"
+  },
+  "devDependencies": {
+    "http-proxy-middleware": "^3.0.3"
+  }
+}
